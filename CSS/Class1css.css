@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* top section  */
+#hader{
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+
+}
+#hader .logo{
+    width: 30%;
+    float: left;
+}
+#hader .logo i{
+    color: #fff;
+    font-size: 35px;
+    line-height: 0;
+    margin: 40px 160px;
+    text-align: center;
+}
+#hader .logo h3{
+    color:#fff;
+    font-size: 35px;
+    line-height: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#hader .nav{
+    width: 60%;
+    float: left;
+    margin: 50px 0;
+}
+#hader .nav ul li{
+    display: inline-block;
+}
+#hader .nav ul li a{
+    color: #fff;
+    font-size: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+#hader .nav ul li a:hover{
+    color: #1974e2;
+}
+#hader .hader-end{
+    width: 10%;
+    float: left;
+    margin-top: 40px;
+}
+#hader .hader-end i{
+    color: #fff;
+    font-size: 40px;
+}
+/* herom put  */
+.hero{
+    background: url(../img/moon\ love\ dance.jpg);
+    width: 100%;
+    background-size: cover;
+    /* background-position: center; */
+    padding: 280px;
+}
+.hero h3{
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    margin: 24px -90px;
+    margin-top: -145px;
+}
+.hero h3 samp{
+    color: black;
+    font-family: auto;
+}
+.hero p{
+    margin: 10px 75px 15px -85px;
+    color: rgb(14, 13, 13);
+}
+.hero p samp{
+    color: #fff;
+}
+.hero a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #1974e2;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: -86px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+}
+.hero a:hover{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+/* Dance tour section  */
+#dance{
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    background-color: black;
+}
+.writing-part{
+    margin-bottom: 50px;
+    width: 100%;
+    float: left;
+}
+.writing-part h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.writing-part p{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+}
+.box{
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+    background-color: #1974e2;
+}
+.box img{
+    margin-top: 10px;
+}
+.box h2{
+    font-size: 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.box h2:hover{
+    color: #fff;
+    font-size: 30px;
+}
+.box h3{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #fd219e;
+    text-transform: uppercase;
+}
+.box h3:hover{
+    color: #fff;
+    font-size: 30px;
+}
+.box p{
+    padding: 17px 7px;
+    color: #fff;
+}
+.box:last-child{
+    color: #fcee34;
+}
+
+.box:first-child{
+color: #24e4ff;
+}
+/* Dance tour section end  */
+/* pricing section  */
+#pricing{
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #1974e2;
+}
+.taka i{
+    font-size: 200px;
+    color: #fff;
+}
+.writing-taka{
+    margin-bottom: 50px;
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+.writing-taka h2{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.writing-taka p{
+    width: 60%;
+    margin: auto;
+}
+.taka{
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+    background-color: black;
+    border-radius: 10px;
+}
+.taka h3{
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(250,239,239);
+}
+.taka p{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.taka a{
+    color: black;
+    background-color: rgb(243,233,233);
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;
+    border: 1px solid rgb(238,231,231);
+}
+.taka a:hover{
+    background-color: #1974e2;
+    color: #fff;
+}
+/* pricing section end  */
+/* MY section  */
+#my{
+    width: 100%;
+    float: left;
+}
+.nach{
+width: 100%;
+float: left;
+margin: -2px;
+}
+.pik{
+    width: 50%;
+    float: left;
+}
+.pik img{
+    width: 100%;
+
+}
+.weiting-part{
+    background-color: #000;
+    width: 50%;
+    float: left;
+    padding: 110px 100px;
+}
+.weiting-part h3{
+    font-size: 50px;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.weiting-part p{
+    color: #fff;
+}
+.weiting-part a{
+    color: black;
+    background-color: rgb(243,233,233);
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;
+    border: 1px solid rgb(238,231,231);
+}
+.weiting-part a:hover{
+    background-color: #1974e2;
+    color: #fff;
+}
+/* MY section end  */
+ /* OUR STATISTICS  */
+ #active{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    text-align: center;
+    background-color: #1974e2;
+    margin-top: -4px;
+}
+.our-part{
+
+margin: 38px;
+
+/* width: 73%; */
+
+}
+.our-part h1{
+    
+font-size: 41px;
+    
+color: rgb(238, 226, 226);
+    
+padding: 16px;
+}
+.our-part p{color: #fff;margin: 0px 281px;}
+.Member{
+
+margin: -134px;
+
+margin-left: -12px;
+
+}
+.Member .Club {color: #fff;float: left;margin: 154px;}
+.Club h2{color: #fff;font-size: 31px;}
+.Club p{color: #fff;font-size: 26px;}
+/* OUR STATISTICS end  */
+    /* HERBERT SIMON */
+    #kl{display: inline-block;}
+    .simon{
+        background: url(../img/123.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        padding: 200px 0;
+    }
+    .simon p{margin: 0 400px;color: #1974e2;text-align: center;font-size: 19px;}
+    .simon h1{
+        
+ font-size: 44px;
+        
+ margin: 10px 437px;;
+        
+ color: #fd219e;
+        
+ text-align: center;
+ }
+     /* HERBERT SIMON end  */
+     /* OUR STATISTICS  */
+     form{position: absolute;
+        margin-left: 350px;
+    margin-top: 20px;}
+    input[type="email"] {
+        border: 2px solid #fd219e;
+        display: inline-block;
+        padding: 20px 130px 20px 20px;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-right: 130px;
+    }
+input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 16px 30px;
+    background-color: #fd219e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-style: unset;
+}
+input[type="submit"]:hover{
+    background-color: #fff;
+    color: #1974e2;
+}
+/* OUR STATISTICS end  */
+/* footer section  */
+#footer{
+    color: #fff;
+    overflow: hidden;
+    float: left;
+    background-color: black;
+    width: 100%;}
+#footer .musicolcgy{
+    width: 34%;
+    margin-right: 10px;
+    padding: 61px;
+    float: left;
+    margin-left: -39px;
+   
+}
+#footer .musicolcgy h2{
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: emoji;
+}
+#footer .musicolcgy p{
+    font-family: monospace;
+}
+#footer .musicolcgy .contact-social{
+    padding-top:15px
+}
+#footer .musicolcgy .contact-social i{
+    background-color: #fff;
+    padding-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display:inline-flex;
+    justify-items: center;
+    align-items: center;
+    color: #1974e2;
+}
+#footer .musicolcgy .contact-social i:hover{
+    background-color: #1974e2;
+    color: #fff;
+}
+#footer .musicolcgy .contact-social i::before{
+   
+    padding-left: 4px;
+}
+#footer .about{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    margin: 13px;
+}
+#footer .about h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-family: inherit;
+}
+#footer .about ul{
+padding: 0;
+margin: 0;
+}
+#footer .about ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    
+}
+#footer .about ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+/* footer section end  */
